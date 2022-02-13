@@ -260,7 +260,7 @@ However, we now have the desire to make some changes to our original 'Tutorial.j
 
 `$ git stash -u`
 
-The 'u' argument signifies that this is an untracked file, this argument when working with files that are already added. Now if we look within our project directory, the new file is now gone. We can then make changes and commits without including the new file, and if we want to get it back we can run:
+The 'u' argument signifies that this is an untracked file, this argument is not needed when working with files that are already added. Now if we look within our project directory, the new file is now gone. We can then make changes and commits without including the new file, and if we want to get it back we can run:
 
 `$ git stash pop`
 
